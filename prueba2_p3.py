@@ -20,6 +20,6 @@ pais = input("Ingrese el país de procedencia del turista: ")
 
 
 print("el turista con el nombre ", nombre_turista, "viene del ", pais, "y su capital es ",
-       paises_capitales)
+       paises_capitales[pais])
 
 
