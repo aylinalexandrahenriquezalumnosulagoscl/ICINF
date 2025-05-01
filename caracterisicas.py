@@ -1,18 +1,18 @@
-def main():
-    alturas = [] 
-    
-    while True:
-        altura = float(input("Ingrese la altura en metros (0 para finalizar): "))
-        if altura == 0:
-            break
-        alturas.append(altura)
-
-    if alturas:
-        altura_promedio = sum(alturas) / len(alturas)
-        print("La altura promedio de las personas es:", altura_promedio)
-    else:
-        print("No se ingresaron alturas.")
-
-if __name__ == "__main__":
-    main()
+index 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="heart">
+        <p>Bienvenido ❤️<br>
+        <a href="/login" style="color: white;">Iniciar sesión</a> |
+        <a href="/register" style="color: white;">Registrarse</a>
+        </p>
+    </div>
+</body>
+</html>
 
