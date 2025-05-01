@@ -1,15 +1,18 @@
-#escriba un programa en python que permita ingresar 7 nombres de personas de una lista.
-#una vez terminado el ingreso debera eliminar de la lista todos los nombres que termine con "a" 
-#y mostrar la lista resultante despues de dicha eliminacion
-
-nombres = []
-
-for i in range(7):
-    nombre = input("Ingrese un nombre: ")
-    nombres.append(nombre)
-    print("Lista antes de la eliminación:", nombres)
-
-for nombre in (nombres ):
-   if nombre.pop("a"):
-      print("Lista después de la eliminación:", nombres)
+login
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    {% if error %}<p style="color:red;">{{ error }}</p>{% endif %}
+    <form method="POST">
+        <input type="text" name="username" placeholder="Correo institucional"><br>
+        <input type="password" name="password" placeholder="Contraseña"><br>
+        <button type="submit">Entrar</button>
+    </form>
+    <p>¿No tienes cuenta? <a href="{{ url_for('register') }}">Regístrate</a></p>
+</body>
+</html>
 
